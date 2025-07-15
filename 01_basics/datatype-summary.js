@@ -38,9 +38,15 @@ console.log(typeof anotherId);
 
 
 
+<<<<<<< HEAD
 / ++++++++++++++++++++++++++++++++++++++++++++
 
 / Stack (Primitive), Heap (Non Primitive)
+=======
+// ++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non Primitive)
+>>>>>>> c6f60f1 (Added 05_strings.js file and tested string methods)
 
 let myYoutubename = "Kabir Khan"
 
@@ -51,8 +57,13 @@ console.log(myYoutubename);
 console.log(anothername);
 
 let userone = {
+<<<<<<< HEAD
     email: "user@google.com"
     upi:"user@ybl",
+=======
+    email: "user@google.com",
+    upi: "user@ybl"
+>>>>>>> c6f60f1 (Added 05_strings.js file and tested string methods)
 }
 
 let usertwo = userone
@@ -60,4 +71,8 @@ let usertwo = userone
 usertwo.email = "kabir@google.com"
 
 console.log(userone.email);
+<<<<<<< HEAD
 console.log(usertwo.email);
+=======
+console.log(usertwo.email);
+>>>>>>> c6f60f1 (Added 05_strings.js file and tested string methods)
